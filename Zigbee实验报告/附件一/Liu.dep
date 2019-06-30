@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>3384043812</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\dm\LCD.h</file>
+            <file>$PROJ_DIR$\dm\LCD.c</file>
+            <file>$PROJ_DIR$\dm\UART.c</file>
+            <file>$PROJ_DIR$\dm\LED.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\LCD.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\UART.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\Date.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r51</file>
+            <file>$PROJ_DIR$\dm\Date.c</file>
+            <file>$PROJ_DIR$\dm\UART.h</file>
+            <file>$PROJ_DIR$\dm\timer.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\UART.r51</file>
+            <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_cc2530F256_banked.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\LED.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\LED.r51</file>
+            <file>$PROJ_DIR$\dm\LED.c</file>
+            <file>$PROJ_DIR$\dm\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\LCD.r51</file>
+            <file>$PROJ_DIR$\Debug\Obj\Liu.pbd</file>
+            <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
+            <file>$PROJ_DIR$\dm\timer.h</file>
+            <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\dm\Date.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\Liu.d51</file>
+            <file>$PROJ_DIR$\Debug\Obj\Date.pbi</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\dm\LCD.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 4</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 22 0</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 0 22</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\dm\UART.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 12</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 5</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 22 10 0 3</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 0 10 3 22</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\dm\Date.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 6</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 22 0</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 0 22</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\dm\timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 7</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 22 21</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 22 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\dm\LED.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 15</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 14</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 22 21 0 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 22 0 21 10</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\dm\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 8</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC8051</name>
+                    <file> 22 0 10 21 3 25</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10 0 22 21 3 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\Liu.d51</name>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 13 6 18 15 8 7 12 20</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
